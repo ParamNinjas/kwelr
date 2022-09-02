@@ -1,0 +1,55 @@
+ .form{
+    position: relative;
+    top: 5em;
+ }
+ .dropdowns{
+    position: relative;
+    display: block;
+ }
+ .imageSlider{
+    max-height: 50em !important;
+    position: relative;
+    top: 5em;
+ }
+
+ @import "~react-image-gallery/styles/css/image-gallery.css";
+
+ .formHeader{
+    position: relative;
+    text-align: center;
+    top: 1em;
+ }
+ .logo{
+    height: 8em;
+ }
+ .dropdown{
+
+ }
+ .btnReg{
+    position: relative;
+    justify-items: center;
+    top: 1em;
+    left: 50%;
+    
+ }
+ .dropdown{
+    position: relative;
+    right: 0.6em;
+    bottom: 0.5em;
+ }
+ .dropdown2{
+    position: relative;
+    right: 0.1em;
+    bottom: 1em;
+ }
+ @media screen and (max-width: 600px) {
+
+    .dropdown{
+        max-width: 21.5em !important;
+        right: 0.5em;
+    }
+    .dropdown2{
+        max-width: 21.8em !important;
+        right: 0.1em;
+    }
+ }
