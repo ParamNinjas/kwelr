@@ -171,7 +171,7 @@ const Home = () => {
                             </div>
                             <div className="drop2">
                             <FormControl style={{minWidth: 250}}  className={classes.margin}>
-                                <InputLabel id="demo-customized-select-label">Business Unit</InputLabel>
+                                {/* <InputLabel id="demo-customized-select-label">Business Unit</InputLabel> */}
                                 <Select
                                 labelId="demo-customized-select-label"
                                 id="demo-customized-select"
