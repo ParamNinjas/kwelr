@@ -1,6 +1,13 @@
  .form{
     position: relative;
     top: 5em;
+    background: rgba(55, 55, 63, 0.04);
+ }
+ .personalInfo{
+   position: relative;
+   display: flex;
+   gap: 1em;
+   margin-bottom: 1em;
  }
  .dropdowns{
     position: relative;

@@ -98,36 +98,40 @@ const Home = () => {
                 className="logo"
                 alt="logo"
                 src={logo}
+                href="/about"
                 />
                 <Typography className="formHeader" variant="h4">Please FIll in the Form</Typography>
                 <Grid container spacing={2}>
              
                     <Grid item xs={12} sm={12} md={6} lg={6}>
                         <div className="form">
-                            <TextField
-                                variant="outlined"
-                                fullWidth
-                                label="Name"
-                            />
-                            <TextField
-                                variant="outlined"
-                                fullWidth
-                                label="Surname"
-                            />
-                            <TextField
+                            <div className="personalInfo">
+                                <div className="name">
+                                    <TextField
+                                        variant="outlined"
+                                        label="Full Name"
+                                    />
+                                </div>
+                                <div className="email">
+                                    <TextField
+                                        variant="outlined"
+                                        label="Email"
+                                    />
+                                </div>
+                                <div className="number">
+                                    <TextField
+                                        variant="outlined"
+                                        label="Phone Number"
+                                    />
+                                </div>
+                           
+                         
+                           
+                            </div>
+                                <TextField
                                 variant="outlined"
                                 fullWidth
                                 label="Card Number"
-                            />
-                            <TextField
-                                variant="outlined"
-                                fullWidth
-                                label="Email"
-                            />
-                            <TextField
-                                variant="outlined"
-                                fullWidth
-                                label="Phone Number"
                             />
                             <TextField
                                 variant="outlined"
@@ -194,7 +198,7 @@ const Home = () => {
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={6}>
                         <div className="imageSlider">
-                        <ImageGallery style={{minHeight: 600}} autoPlay items={images} />
+                        <ImageGallery showFullscreenButton={false} showPlayButton={false} showNav={false} style={{minHeight: 600}} autoPlay items={images} />
                         </div>
                         </Grid>
                 </Grid>
