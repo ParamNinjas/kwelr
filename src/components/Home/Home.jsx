@@ -9,6 +9,13 @@ import Button from '@material-ui/core/Button';
 import image1 from "../../img/image1.jpg";
 import image2 from "../../img/image2.jpg";
 import image3 from "../../img/image3.jpg";
+import image4 from "../../img/image4.jpg";
+import image5 from "../../img/image5.jpg";
+import image6 from "../../img/image6.jpg";
+import image7 from "../../img/image7.jpg";
+import image8 from "../../img/image8.jpg";
+import image9 from "../../img/image9.jpg";
+import image10 from "../../img/image10.jpg";
 import logo from "../../img/kwelR.png"
 import { Carousel } from '@sefailyasoz/react-carousel'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
@@ -26,16 +33,44 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
   const images = [
+    // {
+    //   original: image1,
+    // //   thumbnail: image1,
+    // },
+    // {
+    //     original: image2,
+    // //   thumbnail: image2,
+    // },
+    // {
+    //     original: image3,
+    //     // thumbnail: image3,
+    // },
     {
-      original: image1,
-    //   thumbnail: image1,
+        original: image4,
+        // thumbnail: image3,
     },
     {
-        original: image2,
-    //   thumbnail: image2,
+        original: image5,
+        // thumbnail: image3,
     },
     {
-        original: image3,
+        original: image6,
+        // thumbnail: image3,
+    },
+    {
+        original: image7,
+        // thumbnail: image3,
+    },
+    {
+        original: image8,
+        // thumbnail: image3,
+    },
+    {
+        original: image9,
+        // thumbnail: image3,
+    },
+    {
+        original: image10,
         // thumbnail: image3,
     },
   ];
@@ -159,7 +194,7 @@ const Home = () => {
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={6}>
                         <div className="imageSlider">
-                        <ImageGallery autoPlay items={images} />;
+                        <ImageGallery style={{minHeight: 600}} autoPlay items={images} />
                         </div>
                         </Grid>
                 </Grid>
