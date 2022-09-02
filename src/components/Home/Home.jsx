@@ -159,7 +159,7 @@ const Home = () => {
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={6}>
                         <div className="imageSlider">
-                        <ImageGallery slideInterval={1000} items={images} />;
+                        <ImageGallery autoPlay items={images} />;
                         </div>
                         </Grid>
                 </Grid>
