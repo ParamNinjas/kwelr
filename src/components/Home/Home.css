@@ -1,55 +1,95 @@
+ .Home-con{
+   background: #dcdcdc ;
+   /* background: url("../../img/back.jpg"); */
+ 
+   height: 51.7em;
+ }
  .form{
     position: relative;
-    top: 5em;
+    top: 2em;
     background: rgba(55, 55, 63, 0.04);
+    background-color: #FFFFFF;
+    height: 35em;
+    border-radius: 10%;
+    width: 45em;
+    left: 10em;
  }
  .personalInfo{
    position: relative;
    display: flex;
    gap: 1em;
    margin-bottom: 1em;
+   top: 1em;
+   left: 3em;
+ }
+ .numbers{
+   position: relative;
+   display: flex;
+   gap: 1em;
+   margin-bottom: 2em;
+   top: 1em;
+   left: 3em;
  }
  .dropdowns{
     position: relative;
-    display: block;
+    display: flex;
+    gap: 2em;
  }
  .imageSlider{
-    max-height: 50em !important;
-    position: relative;
-    top: 5em;
+   position: relative;
+   bottom: 20em;
+   left: 18em;
  }
-
+ .image-gallery-slide .image-gallery-image{
+   width: 40% !important;
+ 
+ }
+ .image-gallery-content .image-gallery-slide .image-gallery-image{
+   max-height: 20 !important;
+ }
+.slider{
+   height: 10em !important;
+   width: 10em !important;
+}
  @import "~react-image-gallery/styles/css/image-gallery.css";
 
  .formHeader{
     position: relative;
     text-align: center;
-    top: 1em;
+ 
  }
  .logo{
     height: 8em;
+    position: relative;
+    
  }
- .dropdown{
 
- }
  .btnReg{
     position: relative;
     justify-items: center;
     top: 1em;
-    left: 50%;
+    left: 10%;
+    background-color: #4166f5 !important;
+    color: #FFFFFF !important;
     
+    
+ }
+ .resAdd{
+   position: relative;
+   left: 3em;
+   margin-bottom: 1em;
  }
  .dropdown{
     position: relative;
-    right: 0.6em;
+    left: 2em;
     bottom: 0.5em;
  }
  .dropdown2{
     position: relative;
     right: 0.1em;
-    bottom: 1em;
+  
  }
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 1280px) {
 
     .dropdown{
         max-width: 21.5em !important;

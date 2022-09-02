@@ -14,7 +14,6 @@ import image5 from "../../img/image5.jpg";
 import image6 from "../../img/image6.jpg";
 import image7 from "../../img/image7.jpg";
 import image8 from "../../img/image8.jpg";
-import image9 from "../../img/image9.jpg";
 import image10 from "../../img/image10.jpg";
 import logo from "../../img/kwelR.png"
 import { Carousel } from '@sefailyasoz/react-carousel'
@@ -66,13 +65,13 @@ const useStyles = makeStyles((theme) => ({
         // thumbnail: image3,
     },
     {
-        original: image9,
+        original: image8,
         // thumbnail: image3,
     },
-    {
-        original: image10,
-        // thumbnail: image3,
-    },
+    // {
+    //     original: image10,
+    //     // thumbnail: image3,
+    // },
   ];
 
 const Home = () => {
@@ -92,59 +91,64 @@ const Home = () => {
     setOpen(true);
   };
     return(
-        <div>
-            <Container>
+        <div className="Home-con">
+           
               <img
                 className="logo"
                 alt="logo"
                 src={logo}
                 href="/about"
                 />
-                <Typography className="formHeader" variant="h4">Please FIll in the Form</Typography>
-                <Grid container spacing={2}>
-             
-                    <Grid item xs={12} sm={12} md={6} lg={6}>
                         <div className="form">
+                        <Typography className="formHeader" variant="h4">Please FIll in the Form</Typography>
                             <div className="personalInfo">
                                 <div className="name">
                                     <TextField
                                         variant="outlined"
+                                        size="small"
                                         label="Full Name"
                                     />
                                 </div>
                                 <div className="email">
                                     <TextField
                                         variant="outlined"
+                                        size="small"
                                         label="Email"
                                     />
                                 </div>
+                            </div>
+                            <div className="numbers">
                                 <div className="number">
                                     <TextField
                                         variant="outlined"
+                                        size="small"
                                         label="Phone Number"
                                     />
                                 </div>
-                           
-                         
-                           
+                                <div>
+                                    <TextField
+                                    variant="outlined"
+                                    size="small"
+                                    label="Card Number"
+                                    />
+                                </div>
                             </div>
+                            <div className="resAdd">
                                 <TextField
-                                variant="outlined"
-                                fullWidth
-                                label="Card Number"
-                            />
-                            <TextField
-                                variant="outlined"
-                                fullWidth
-                                label="Residential Address"
-                            />
+                                    variant="outlined"
+                                    size="small"
+                                    style ={{width: '68%'}}
+                                    label="Residential Address"
+                                />
+                            </div>
                             <div className="dropdowns">
                                 <div className="Drop1">
-                            <FormControl style={{minWidth: 600}}  className={classes.formControl}>
-                                <InputLabel id="demo-controlled-open-select-label">Average Monthly Transport cost</InputLabel>
+                            <FormControl style={{minWidth: 250}}  className={classes.formControl}>
+                                {/* <InputLabel id="demo-controlled-open-select-label">Average Monthly  cost</InputLabel> */}
                                 <Select
                                 labelId="demo-controlled-open-select-label"
                                 id="demo-controlled-open-select"
+                                label="Average Monthly  cost"
                                 open={open}
                                 onClose={handleClose}
                                 onOpen={handleOpen}
@@ -166,7 +170,7 @@ const Home = () => {
                             </FormControl>
                             </div>
                             <div className="drop2">
-                            <FormControl style={{minWidth: 600}}  className={classes.margin}>
+                            <FormControl style={{minWidth: 250}}  className={classes.margin}>
                                 <InputLabel id="demo-customized-select-label">Business Unit</InputLabel>
                                 <Select
                                 labelId="demo-customized-select-label"
@@ -195,18 +199,11 @@ const Home = () => {
                                 Register
                             </Button>
                         </div>
-                    </Grid>
-                    <Grid item xs={12} sm={12} md={6} lg={6}>
-                        <div className="imageSlider">
-                        <ImageGallery showFullscreenButton={false} showPlayButton={false} showNav={false} style={{minHeight: 600}} autoPlay items={images} />
-                        </div>
-                        </Grid>
-                </Grid>
-
-
-            
-
-            </Container>
+                   
+                         <div className="imageSlider">
+                        <ImageGallery className="slider" showFullscreenButton={false} showPlayButton={false} showNav={false} style={{minHeight: 600}} autoPlay items={images} />
+                        </div> 
+         
         </div>
     )
 
