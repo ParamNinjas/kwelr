@@ -94,12 +94,12 @@
     .label{
       position: relative !important;
       left: 3em !important;
-      top: 0.5em !important;
+    
     }
     .label2{
       position: relative !important;
       left: 3em !important;
-      top: 0.5em !important;
+ 
     }
     .resAdd{
       position: relative;
@@ -112,12 +112,14 @@
     .dropdown{
        position: relative;
        left: 2em;
+   
        width: 32em !important;
       
     }
     .dropdown2{
        position: relative;
        left: 2.5em;
+      
        width: 32em !important;
      
     }
