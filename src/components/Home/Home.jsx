@@ -16,9 +16,7 @@ import image7 from "../../img/image7.jpg";
 import image8 from "../../img/image8.jpg";
 import image10 from "../../img/image10.jpg";
 import logo from "../../img/kwelR.png"
-import { Carousel } from '@sefailyasoz/react-carousel'
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
-import ImageGallery from 'react-image-gallery';
+import SimpleImageSlider from "react-simple-image-slider";
 import "./Home.css"
 
 const useStyles = makeStyles((theme) => ({
@@ -32,47 +30,14 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
   const images = [
-    // {
-    //   original: image1,
-    // //   thumbnail: image1,
-    // },
-    // {
-    //     original: image2,
-    // //   thumbnail: image2,
-    // },
-    // {
-    //     original: image3,
-    //     // thumbnail: image3,
-    // },
-    {
-        original: image4,
-        // thumbnail: image3,
-    },
-    {
-        original: image5,
-        // thumbnail: image3,
-    },
-    {
-        original: image6,
-        // thumbnail: image3,
-    },
-    {
-        original: image7,
-        // thumbnail: image3,
-    },
-    {
-        original: image8,
-        // thumbnail: image3,
-    },
-    {
-        original: image8,
-        // thumbnail: image3,
-    },
-    // {
-    //     original: image10,
-    //     // thumbnail: image3,
-    // },
-  ];
+    { url: image4 },
+    { url: image5 },
+    { url: image6 },
+    { url: image7 },
+    { url: image8 },
+    { url: image8 },
+    { url: image10 },
+  ]
 
 const Home = () => {
     const classes = useStyles();
@@ -99,12 +64,15 @@ const Home = () => {
                 src={logo}
                 href="/about"
                 />
-                        <div className="form">
+                <Grid container>
+                    <Grid item xs={12} sm ={12} md={8} lg={8}>
+                    <div className="form">
                         <Typography className="formHeader" variant="h4">Please FIll in the Form</Typography>
                             <div className="personalInfo">
                                 <div className="name">
                                     <TextField
                                         variant="outlined"
+                                        className="email"
                                         size="small"
                                         label="Full Name"
                                     />
@@ -113,18 +81,21 @@ const Home = () => {
                                     <TextField
                                         variant="outlined"
                                         size="small"
+                                        className="email"
                                         label="Email"
                                     />
                                 </div>
-                            </div>
-                            <div className="numbers">
                                 <div className="number">
                                     <TextField
                                         variant="outlined"
+                                        className="email"
                                         size="small"
                                         label="Phone Number"
                                     />
                                 </div>
+                            </div>
+                            <div className="numbers">
+                            
                                 <div>
                                     <TextField
                                     variant="outlined"
@@ -191,6 +162,7 @@ const Home = () => {
                             </FormControl>
                           
                             </div>
+                           
                             </div>
                             <Button 
                                 className="btnReg"
@@ -199,10 +171,24 @@ const Home = () => {
                                 Register
                             </Button>
                         </div>
+
+                    </Grid>
+                    <Grid item xs={12} sm ={12} md={4} lg={4}>
+                    <div className="imageSlider">
+                                <SimpleImageSlider
+                                    width={496}
+                                    height={604}
+                                    images={images}
+                                    showBullets={false}
+                                    autoPlay={true}
+                                    showNavs={false}
+                                />
+                                </div>
+                    </Grid>
+                </Grid>
+                 
                    
-                         <div className="imageSlider">
-                        <ImageGallery className="slider" showFullscreenButton={false} showPlayButton={false} showNav={false} style={{minHeight: 600}} autoPlay items={images} />
-                        </div> 
+                       
          
         </div>
     )

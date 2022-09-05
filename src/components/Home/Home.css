@@ -1,18 +1,16 @@
  .Home-con{
-   background: #dcdcdc ;
+   background: #FFFFFF;
    /* background: url("../../img/back.jpg"); */
  
    height: 51.7em;
  }
  .form{
     position: relative;
-    top: 2em;
     background: rgba(55, 55, 63, 0.04);
-    background-color: #FFFFFF;
-    height: 35em;
-    border-radius: 10%;
+    background-color: rgba(55, 55, 63, 0.04) ;
+    height: 37.7em;
     width: 45em;
-    left: 24em;
+    left: 13em;
  }
  .personalInfo{
    position: relative;
@@ -21,6 +19,9 @@
    margin-bottom: 1em;
    top: 1em;
    left: 3em;
+ }
+ .email{
+   width: 10em !important;
  }
  .numbers{
    position: relative;
@@ -37,12 +38,14 @@
  }
  .imageSlider{
    position: relative;
-   bottom: 18em;
-   left: 16em;
+   right: 10em;
  }
  .image-gallery-slide .image-gallery-image{
    width: 40% !important;
  
+ }
+ .image-gallery-slide {
+   width: 87% !important;
  }
  .image-gallery-content .image-gallery-slide .image-gallery-image{
    max-height: 20 !important;
