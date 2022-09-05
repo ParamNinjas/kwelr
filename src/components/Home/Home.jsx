@@ -64,14 +64,19 @@ const Home = () => {
     return(
         
         <div className="Home-con">
-           <BrowserView>
+           
               <img
                 className="logo"
                 alt="logo"
                 src={logo}
                 href="/about"
                 />
-                 <Typography className="formHeader" variant="h2">Please FIll in the Form</Typography>
+                <div className="typo">
+                <Typography className="formHeader1" variant="h2">Please </Typography>
+                <Typography className="formHeader2" variant="h2">Fill in</Typography>
+                <Typography className="formHeader3" variant="h2">the Form</Typography>
+                </div>
+               
                 <Grid container>
                     <Grid item xs={12} sm ={12} md={8} lg={8}>
                     <div className="form">
@@ -189,6 +194,7 @@ const Home = () => {
 
                     </Grid>
                     <Grid item xs={12} sm ={12} md={4} lg={4}>
+                    <BrowserView>
                     <div className="imageSlider">
                                 <SimpleImageSlider
                                     width={496}
@@ -199,12 +205,13 @@ const Home = () => {
                                     showNavs={false}
                                 />
                                 </div>
+                                </BrowserView>
                     </Grid>
                 </Grid>
                  
                    
                        
-                </BrowserView>
+               
         </div>
     )
 

@@ -1,9 +1,6 @@
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1440px) {
    .Home-con{
       background: #FFFFFF;
-      /* background: url("../../img/back.jpg"); */
-    
-      /* height: 51.7em; */
     }
     .form{
        position: relative;
@@ -113,9 +110,35 @@
      
     }
 }
- 
+.typo{
+  position: relative;
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+}
+.formHeader2{
+  color: blue !important;
+}
  @media screen and (max-width: 1280px) {
-
+  .logo{
+    height: 1em;
+    position: relative;
+    
+ }
+  .logo{
+    height: 4em;
+    position: relative;
+    
+ }
+  .form{
+    position: relative;
+    left: 1em;
+  }
+   .imageSlider{
+      position: relative;
+      right: 20em;
+      width: 100px !important;
+    }
     .dropdown{
         max-width: 21.5em !important;
         right: 0.5em;
