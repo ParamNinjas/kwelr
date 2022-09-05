@@ -12,7 +12,7 @@
     height: 35em;
     border-radius: 10%;
     width: 45em;
-    left: 10em;
+    left: 24em;
  }
  .personalInfo{
    position: relative;
@@ -38,7 +38,7 @@
  .imageSlider{
    position: relative;
    bottom: 18em;
-   left: 2em;
+   left: 16em;
  }
  .image-gallery-slide .image-gallery-image{
    width: 40% !important;
