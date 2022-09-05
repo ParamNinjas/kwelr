@@ -72,9 +72,9 @@ const Home = () => {
                 href="/about"
                 />
                 <div className="typo">
-                <Typography className="formHeader1" variant="h4">Please </Typography>
-                <Typography className="formHeader2" variant="h4">Fill in</Typography>
-                <Typography className="formHeader3" variant="h4">the Form</Typography>
+                <Typography  style={{ fontWeight: 600 }} className="formHeader1" variant="h4">Please </Typography>
+                <Typography  style={{ fontWeight: 600 }} fontWeight="fontWeightBold" className="formHeader2" variant="h4">Sign up</Typography>
+                <Typography  style={{ fontWeight: 600 }} fontWeight="fontWeightBold" className="formHeader3" variant="h4">below</Typography>
                 </div>
                
                 <Grid container>
@@ -190,12 +190,7 @@ const Home = () => {
                             >
                                 Register
                             </Button>
-                        </div>
-
-                    </Grid>
-                    <Grid item xs={12} sm ={12} md={4} lg={4}>
-                    <BrowserView>
-                    <div className="imageSlider">
+                            <div className="imageSlider">
                                 <SimpleImageSlider
                                     width={496}
                                     height={504}
@@ -205,6 +200,12 @@ const Home = () => {
                                     showNavs={false}
                                 />
                                 </div>
+                        </div>
+
+                    </Grid>
+                    <Grid item xs={12} sm ={12} md={4} lg={4}>
+                    <BrowserView>
+                    
                                 </BrowserView>
                     </Grid>
                 </Grid>

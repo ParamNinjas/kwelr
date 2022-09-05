@@ -36,7 +36,8 @@
     }
     .imageSlider{
       position: relative;
-      right: 8.5em;
+      bottom: 25.2em;
+     left: 36em;
     }
     .image-gallery-slide .image-gallery-image{
       width: 40% !important;
