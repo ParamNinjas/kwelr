@@ -1,118 +1,119 @@
- .Home-con{
-   background: #FFFFFF;
-   /* background: url("../../img/back.jpg"); */
- 
-   /* height: 51.7em; */
- }
- .form{
-    position: relative;
-    background: rgba(55, 55, 63, 0.04);
-    background-color: rgba(55, 55, 63, 0.04) ;
-    height: 31.7em;
-    width: 36em;
-    left: 13em;
- }
- .personalInfo{
-   position: relative;
-   display: flex;
-   gap: 1em;
-   margin-bottom: 1em;
-   top: 1em;
-   left: 2.5em;
- }
- .email{
-   width: 10em !important;
- }
- .numbers{
-   position: relative;
-   display: flex;
-   gap: 1em;
-   margin-bottom: 2em;
-   top: 1em;
-   left: 2.5em;
- }
- .dropdowns{
-    position: relative;
-    display: block;
-    gap: 2em;
- }
- .imageSlider{
-   position: relative;
-   right: 14.5em;
- }
- .image-gallery-slide .image-gallery-image{
-   width: 40% !important;
- 
- }
- .image-gallery-slide {
-   width: 87% !important;
- }
- .image-gallery-content .image-gallery-slide .image-gallery-image{
-   max-height: 20 !important;
- }
-/* .slider{
-   height: 10em !important;
-   width: 10em !important;
-} */
- @import "~react-image-gallery/styles/css/image-gallery.css";
-
- .formHeader{
-    position: relative;
-    text-align: center;
- 
- }
- .logo{
-    height: 4em;
-    position: relative;
+@media screen and (min-width: 900px) {
+   .Home-con{
+      background: #FFFFFF;
+      /* background: url("../../img/back.jpg"); */
     
- }
-.costTypo{
-   position: relative;
-   top: 1em;
-   left: 2em;
-}
-.unitTypo{
-   position: relative;
-   top: 1em;
-   left: 3em; 
-}
- .btnReg{
-    position: relative;
-    justify-items: center;
-    top: 1em;
-    left: 30%;
-    background-color: #4166f5 !important;
-    color: #FFFFFF !important; 
- }
- .label{
-   position: relative !important;
-   left: 3em !important;
- }
- .label2{
-   position: relative !important;
-   left: 3em !important;
-   top: 0.5em !important;
- }
- .resAdd{
-   position: relative;
-   margin-bottom: 1em;
- }
- .dropdowns{
-   position: relative;
-   bottom: 2em;
- }
- .dropdown{
-    position: relative;
-    left: 2em;
-    width: 32em !important;
+      /* height: 51.7em; */
+    }
+    .form{
+       position: relative;
+       background: rgba(55, 55, 63, 0.04);
+       background-color: rgba(55, 55, 63, 0.04) ;
+       height: 31.7em;
+       width: 36em;
+       left: 13em;
+    }
+    .personalInfo{
+      position: relative;
+      display: flex;
+      gap: 1em;
+      margin-bottom: 1em;
+      top: 1em;
+      left: 2.5em;
+    }
+    .email{
+      width: 10em !important;
+    }
+    .numbers{
+      position: relative;
+      display: flex;
+      gap: 1em;
+      margin-bottom: 2em;
+      top: 1em;
+      left: 2.5em;
+    }
+    .dropdowns{
+       position: relative;
+       display: block;
+       gap: 2em;
+    }
+    .imageSlider{
+      position: relative;
+      right: 14.5em;
+    }
+    .image-gallery-slide .image-gallery-image{
+      width: 40% !important;
+    
+    }
+    .image-gallery-slide {
+      width: 87% !important;
+    }
+    .image-gallery-content .image-gallery-slide .image-gallery-image{
+      max-height: 20 !important;
+    }
+   /* .slider{
+      height: 10em !important;
+      width: 10em !important;
+   } */
+    @import "~react-image-gallery/styles/css/image-gallery.css";
    
- }
- .dropdown2{
-    position: relative;
-    left: 2.5em;
-    width: 32em !important;
-  
- }
+    .formHeader{
+       position: relative;
+       text-align: center;
+    
+    }
+    .logo{
+       height: 4em;
+       position: relative;
+       
+    }
+   .costTypo{
+      position: relative;
+      left: 2em;
+   } 
+    .unitTypo{
+      position: relative;
+      left: 3em; 
+   }
+    .btnReg{
+       position: relative;
+       justify-items: center;
+       top: 1em;
+       left: 30%;
+       background-color: #4166f5 !important;
+       color: #FFFFFF !important; 
+    }
+    .label{
+      position: relative !important;
+      left: 3em !important;
+    }
+    .label2{
+      position: relative !important;
+      left: 3em !important;
+      top: 0.5em !important;
+    }
+    .resAdd{
+      position: relative;
+      margin-bottom: 1em;
+    }
+    .dropdowns{
+      position: relative;
+      bottom: 2em;
+    }
+    .dropdown{
+       position: relative;
+       left: 2em;
+       width: 32em !important;
+      
+    }
+    .dropdown2{
+       position: relative;
+       left: 2.5em;
+       width: 32em !important;
+     
+    }
+}
+ 
  @media screen and (max-width: 1280px) {
 
     .dropdown{

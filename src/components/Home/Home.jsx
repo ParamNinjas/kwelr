@@ -17,6 +17,12 @@ import image8 from "../../img/image8.jpg";
 import image10 from "../../img/image10.jpg";
 import logo from "../../img/kwelR.png"
 import SimpleImageSlider from "react-simple-image-slider";
+import {
+    BrowserView,
+    MobileView,
+    isBrowser,
+    isMobile,
+ } from "react-device-detect";
 import "./Home.css"
 
 const useStyles = makeStyles((theme) => ({
@@ -56,8 +62,9 @@ const Home = () => {
     setOpen(true);
   };
     return(
+        
         <div className="Home-con">
-           
+           <BrowserView>
               <img
                 className="logo"
                 alt="logo"
@@ -123,7 +130,7 @@ const Home = () => {
                                 
                             <FormControl style={{minWidth: 250}}  className={classes.formControl}>
                             <Typography className="costTypo">Average Monthly Transport Costs</Typography>
-                                <InputLabel className="label" id="demo-controlled-open-select-label">Average Monthly Transport cost</InputLabel>
+                                {/* <InputLabel className="label" id="demo-controlled-open-select-label">Average Monthly Transport cost</InputLabel> */}
                                 <Select
                                 labelId="demo-controlled-open-select-label"
                                 id="demo-controlled-open-select"
@@ -150,7 +157,7 @@ const Home = () => {
                             <div className="drop2">
                             <FormControl style={{minWidth: 250}}  className={classes.margin}>
                             <Typography className="unitTypo">Business Unit</Typography>
-                                <InputLabel className="label2" id="demo-customized-select-label">Business Unit</InputLabel>
+                                {/* <InputLabel className="label2" id="demo-customized-select-label">Business Unit</InputLabel> */}
                                 <Select
                                 labelId="demo-customized-select-label"
                                 id="demo-customized-select"
@@ -197,7 +204,7 @@ const Home = () => {
                  
                    
                        
-         
+                </BrowserView>
         </div>
     )
 
