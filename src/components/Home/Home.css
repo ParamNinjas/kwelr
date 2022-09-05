@@ -46,7 +46,7 @@
     }
     .imageSlider{
       position: relative;
-      bottom: 25.2em;
+      bottom: 23.7em;
      left: 36em;
     }
     .image-gallery-slide .image-gallery-image{
@@ -94,6 +94,7 @@
     .label{
       position: relative !important;
       left: 3em !important;
+      top: 0.5em !important;
     }
     .label2{
       position: relative !important;

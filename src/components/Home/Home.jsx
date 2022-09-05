@@ -153,8 +153,8 @@ const Home = () => {
                                 <div className="Drop1">
                                 
                             <FormControl style={{minWidth: 250}}  className={classes.formControl}>
-                            <Typography className="costTypo">Average Monthly Transport Costs</Typography>
-                                {/* <InputLabel className="label" id="demo-controlled-open-select-label">Average Monthly Transport cost</InputLabel> */}
+                        
+                                <InputLabel className="label" id="demo-controlled-open-select-label">Average Monthly Transport cost</InputLabel>
                                 <Select
                                 labelId="demo-controlled-open-select-label"
                                 id="demo-controlled-open-select"
@@ -180,8 +180,8 @@ const Home = () => {
                             </div>
                             <div className="drop2">
                             <FormControl style={{minWidth: 250}}  className={classes.margin}>
-                            <Typography className="unitTypo">Business Unit</Typography>
-                                {/* <InputLabel className="label2" id="demo-customized-select-label">Business Unit</InputLabel> */}
+                  
+                                <InputLabel className="label2" id="demo-customized-select-label">Business Unit</InputLabel>
                                 <Select
                                 labelId="demo-customized-select-label"
                                 id="demo-customized-select"
