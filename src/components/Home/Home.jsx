@@ -72,9 +72,9 @@ const Home = () => {
                 href="/about"
                 />
                 <div className="typo">
-                <Typography className="formHeader1" variant="h3">Please </Typography>
-                <Typography className="formHeader2" variant="h3">Fill in</Typography>
-                <Typography className="formHeader3" variant="h3">the Form</Typography>
+                <Typography className="formHeader1" variant="h4">Please </Typography>
+                <Typography className="formHeader2" variant="h4">Fill in</Typography>
+                <Typography className="formHeader3" variant="h4">the Form</Typography>
                 </div>
                
                 <Grid container>
