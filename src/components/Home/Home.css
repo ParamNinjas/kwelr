@@ -17,7 +17,7 @@
       display: flex;
       gap: 1em;
       margin-bottom: 1em;
-      top: 1em;
+      top: 2em;
       left: 2.5em;
     }
     .email{
@@ -26,7 +26,7 @@
   .emaildiv{
     position: relative;
     left: 2.5em;
-    top: 0.5em;
+    top: 1.5em;
   }
   .mail{
     width: 30em;
@@ -36,7 +36,7 @@
       display: flex;
       gap: 1em;
       margin-bottom: 2em;
-      top: 1em;
+      top: 2em;
       left: 2.5em;
     }
     .dropdowns{
@@ -99,6 +99,7 @@
     .label2{
       position: relative !important;
       left: 3em !important;
+     
  
     }
     .resAdd{
@@ -119,7 +120,7 @@
     .dropdown2{
        position: relative;
        left: 2.5em;
-      
+       bottom: 0.5em;
        width: 32em !important;
      
     }
