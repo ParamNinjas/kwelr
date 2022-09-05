@@ -36,11 +36,11 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
   const images = [
+    { url: image3 },
     { url: image4 },
     { url: image5 },
     { url: image6 },
     { url: image7 },
-    { url: image8 },
     { url: image8 },
     { url: image10 },
   ]
@@ -80,9 +80,10 @@ const Home = () => {
                 <Grid container>
                     <Grid item xs={12} sm ={12} md={8} lg={8}>
                     <div className="form">
+              
                        
                             <div className="personalInfo">
-                                <div className="name">
+                            <div className="name">
                                     
                                     <TextField
                                         variant="outlined"
@@ -106,22 +107,25 @@ const Home = () => {
                                             shrink: true,
                                           }}
                                     />
-                                </div>
+                       
+                          </div>
+                      
                             </div>
-                   <div className="emaildiv">
-                              
-                                    <TextField
-                                        variant="outlined"
-                                        size="small"
-                                        className="mail"
-                                        style={{ background:"#FFFFFF" }}
-                                        InputLabelProps={{
-                                            shrink: true,
-                                          }}
-                                        label="Email"
-                                    />
-                                </div>
+             
                             <div className="numbers">
+                            <div className="emaildi">
+                              
+                              <TextField
+                                  variant="outlined"
+                                  size="small"
+                                //   className="mail"
+                                  style={{ background:"#FFFFFF" }}
+                                  InputLabelProps={{
+                                      shrink: true,
+                                    }}
+                                  label="Email"
+                              />
+                                </div>
                                 <div>
                                 
                                     <TextField
@@ -134,19 +138,21 @@ const Home = () => {
                                       }}
                                     />
                                 </div>
-                                <div className="resAdd">
+                       
+                            </div>
+                            <div className="resAdd">
                           
-                                <TextField
-                                    variant="outlined"
-                                    size="small"
-                                    style={{ background:"#FFFFFF" }}
-                                    label="Residential Address"
-                                    InputLabelProps={{
-                                        shrink: true,
-                                      }}
-                                />
-                            </div>
-                            </div>
+                          <TextField
+                              variant="outlined"
+                              size="small"
+                              style={{ background:"#FFFFFF" }}
+                              fullWidth
+                              label="Residential Address"
+                              InputLabelProps={{
+                                  shrink: true,
+                                }}
+                          />
+                      </div>
                      
                             <div className="dropdowns">
 
@@ -157,10 +163,14 @@ const Home = () => {
                                 <InputLabel className="label" id="demo-controlled-open-select-label">Average Monthly Transport cost</InputLabel>
                                 <Select
                                 labelId="demo-controlled-open-select-label"
+                                label="Average Monthly Transport cost"
                                 id="demo-controlled-open-select"
-                                label="Average Monthly  cost"
                                 open={open}
                                 onClose={handleClose}
+                                // style={{ background:"#FFFFFF" }}
+                                InputLabelProps={{
+                                    shrink: true,
+                                  }}
                                 onOpen={handleOpen}
                                 className="dropdown"
                                 // value={age}

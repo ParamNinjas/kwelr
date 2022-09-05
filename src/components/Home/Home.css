@@ -14,8 +14,8 @@
     }
     .personalInfo{
       position: relative;
-      display: flex;
-      gap: 1em;
+      display: flex !important;
+      gap: 2.5em;
       margin-bottom: 1em;
       top: 2em;
       left: 2.5em;
@@ -23,10 +23,16 @@
     .email{
       width: 10em !important;
     }
-  .emaildiv{
+  .emaildi{
     position: relative;
-    left: 2.5em;
-    top: 1.5em;
+    /* left: 17em; */
+    
+  }
+
+  .number{
+    position: relative;
+    /* top: 2em; */
+
   }
   .mail{
     width: 30em;
@@ -34,9 +40,9 @@
     .numbers{
       position: relative;
       display: flex;
-      gap: 1em;
+      gap: 2.5em;
       margin-bottom: 2em;
-      top: 2em;
+      top: 1.5em;
       left: 2.5em;
     }
     .dropdowns{
@@ -86,8 +92,10 @@
     .btnReg{
        position: relative;
        justify-items: center;
-       top: 1em;
-       left: 30%;
+       margin: auto;
+       left: 40%;
+       align-items: center;
+       justify-content: center;
        background-color: #4166f5 !important;
        color: #FFFFFF !important; 
     }
@@ -104,7 +112,9 @@
     }
     .resAdd{
       position: relative;
+      left: 2.5em;
       margin-bottom: 1em;
+      width: 32em !important;
     }
     .dropdowns{
       position: relative;
