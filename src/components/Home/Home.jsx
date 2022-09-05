@@ -71,6 +71,7 @@ const Home = () => {
                        
                             <div className="personalInfo">
                                 <div className="name">
+                                    <Typography>Full Name</Typography>
                                     <TextField
                                         variant="outlined"
                                         className="email"
@@ -79,6 +80,7 @@ const Home = () => {
                                     />
                                 </div>
                                 <div className="email">
+                                <Typography>Email</Typography>
                                     <TextField
                                         variant="outlined"
                                         size="small"
@@ -87,6 +89,7 @@ const Home = () => {
                                     />
                                 </div>
                                 <div className="number">
+                                <Typography>Phone Number</Typography>
                                     <TextField
                                         variant="outlined"
                                         className="email"
@@ -97,6 +100,7 @@ const Home = () => {
                             </div>
                             <div className="numbers">
                                 <div>
+                                <Typography>Card Number</Typography>
                                     <TextField
                                     variant="outlined"
                                     size="small"
@@ -104,6 +108,7 @@ const Home = () => {
                                     />
                                 </div>
                                 <div className="resAdd">
+                                <Typography>Residential Address</Typography>
                                 <TextField
                                     variant="outlined"
                                     size="small"
@@ -113,10 +118,11 @@ const Home = () => {
                             </div>
                      
                             <div className="dropdowns">
-                              
+
                                 <div className="Drop1">
-                                {/* <Typography>Average Monthly Transport Costs</Typography> */}
+                                
                             <FormControl style={{minWidth: 250}}  className={classes.formControl}>
+                            <Typography className="costTypo">Average Monthly Transport Costs</Typography>
                                 <InputLabel className="label" id="demo-controlled-open-select-label">Average Monthly Transport cost</InputLabel>
                                 <Select
                                 labelId="demo-controlled-open-select-label"
@@ -143,6 +149,7 @@ const Home = () => {
                             </div>
                             <div className="drop2">
                             <FormControl style={{minWidth: 250}}  className={classes.margin}>
+                            <Typography className="unitTypo">Business Unit</Typography>
                                 <InputLabel className="label2" id="demo-customized-select-label">Business Unit</InputLabel>
                                 <Select
                                 labelId="demo-customized-select-label"

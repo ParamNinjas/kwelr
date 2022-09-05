@@ -2,14 +2,14 @@
    background: #FFFFFF;
    /* background: url("../../img/back.jpg"); */
  
-   height: 51.7em;
+   /* height: 51.7em; */
  }
  .form{
     position: relative;
     background: rgba(55, 55, 63, 0.04);
     background-color: rgba(55, 55, 63, 0.04) ;
-    height: 37.7em;
-    width: 35em;
+    height: 31.7em;
+    width: 36em;
     left: 13em;
  }
  .personalInfo{
@@ -18,7 +18,7 @@
    gap: 1em;
    margin-bottom: 1em;
    top: 1em;
-   left: 3em;
+   left: 2.5em;
  }
  .email{
    width: 10em !important;
@@ -29,7 +29,7 @@
    gap: 1em;
    margin-bottom: 2em;
    top: 1em;
-   left: 3em;
+   left: 2.5em;
  }
  .dropdowns{
     position: relative;
@@ -38,7 +38,7 @@
  }
  .imageSlider{
    position: relative;
-   right: 18.5em;
+   right: 14.5em;
  }
  .image-gallery-slide .image-gallery-image{
    width: 40% !important;
@@ -62,11 +62,20 @@
  
  }
  .logo{
-    height: 8em;
+    height: 4em;
     position: relative;
     
  }
-
+.costTypo{
+   position: relative;
+   top: 1em;
+   left: 2em;
+}
+.unitTypo{
+   position: relative;
+   top: 1em;
+   left: 3em; 
+}
  .btnReg{
     position: relative;
     justify-items: center;
