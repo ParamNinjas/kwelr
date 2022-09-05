@@ -9,7 +9,7 @@
     background: rgba(55, 55, 63, 0.04);
     background-color: rgba(55, 55, 63, 0.04) ;
     height: 37.7em;
-    width: 45em;
+    width: 35em;
     left: 13em;
  }
  .personalInfo{
@@ -38,7 +38,7 @@
  }
  .imageSlider{
    position: relative;
-   right: 10em;
+   right: 18.5em;
  }
  .image-gallery-slide .image-gallery-image{
    width: 40% !important;

@@ -64,10 +64,11 @@ const Home = () => {
                 src={logo}
                 href="/about"
                 />
+                 <Typography className="formHeader" variant="h2">Please FIll in the Form</Typography>
                 <Grid container>
                     <Grid item xs={12} sm ={12} md={8} lg={8}>
                     <div className="form">
-                        <Typography className="formHeader" variant="h4">Please FIll in the Form</Typography>
+                       
                             <div className="personalInfo">
                                 <div className="name">
                                     <TextField
@@ -177,7 +178,7 @@ const Home = () => {
                     <div className="imageSlider">
                                 <SimpleImageSlider
                                     width={496}
-                                    height={604}
+                                    height={504}
                                     images={images}
                                     showBullets={false}
                                     autoPlay={true}
