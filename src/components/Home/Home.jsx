@@ -95,7 +95,6 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="numbers">
-                            
                                 <div>
                                     <TextField
                                     variant="outlined"
@@ -103,19 +102,21 @@ const Home = () => {
                                     label="Card Number"
                                     />
                                 </div>
-                            </div>
-                            <div className="resAdd">
+                                <div className="resAdd">
                                 <TextField
                                     variant="outlined"
                                     size="small"
-                                    style ={{width: '68%'}}
                                     label="Residential Address"
                                 />
                             </div>
+                            </div>
+                     
                             <div className="dropdowns">
+                              
                                 <div className="Drop1">
+                                {/* <Typography>Average Monthly Transport Costs</Typography> */}
                             <FormControl style={{minWidth: 250}}  className={classes.formControl}>
-                                {/* <InputLabel id="demo-controlled-open-select-label">Average Monthly  cost</InputLabel> */}
+                                <InputLabel className="label" id="demo-controlled-open-select-label">Average Monthly Transport cost</InputLabel>
                                 <Select
                                 labelId="demo-controlled-open-select-label"
                                 id="demo-controlled-open-select"
@@ -126,7 +127,6 @@ const Home = () => {
                                 className="dropdown"
                                 // value={age}
                                 // onChange={handleChange}
-                                fullWidth
                                 variant="outlined"
                                 >
                                 {/* <MenuItem value="">
@@ -142,7 +142,7 @@ const Home = () => {
                             </div>
                             <div className="drop2">
                             <FormControl style={{minWidth: 250}}  className={classes.margin}>
-                                {/* <InputLabel id="demo-customized-select-label">Business Unit</InputLabel> */}
+                                <InputLabel className="label2" id="demo-customized-select-label">Business Unit</InputLabel>
                                 <Select
                                 labelId="demo-customized-select-label"
                                 id="demo-customized-select"

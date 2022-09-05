@@ -71,25 +71,37 @@
     position: relative;
     justify-items: center;
     top: 1em;
-    left: 10%;
+    left: 30%;
     background-color: #4166f5 !important;
-    color: #FFFFFF !important;
-    
-    
+    color: #FFFFFF !important; 
+ }
+ .label{
+   position: relative !important;
+   left: 3em !important;
+ }
+ .label2{
+   position: relative !important;
+   left: 3em !important;
+   top: 0.5em !important;
  }
  .resAdd{
    position: relative;
-   left: 3em;
    margin-bottom: 1em;
+ }
+ .dropdowns{
+   position: relative;
+   bottom: 2em;
  }
  .dropdown{
     position: relative;
     left: 2em;
-    bottom: 0.5em;
+    width: 32em !important;
+   
  }
  .dropdown2{
     position: relative;
     left: 2.5em;
+    width: 32em !important;
   
  }
  @media screen and (max-width: 1280px) {
