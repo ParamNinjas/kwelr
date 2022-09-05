@@ -83,48 +83,67 @@ const Home = () => {
                        
                             <div className="personalInfo">
                                 <div className="name">
-                                    <Typography>Full Name</Typography>
+                                    
                                     <TextField
                                         variant="outlined"
-                                        className="email"
+                                        InputLabelProps={{
+                                            shrink: true,
+                                          }}
+                                        style={{ background:"#FFFFFF" }}
                                         size="small"
                                         label="Full Name"
                                     />
                                 </div>
-                                <div className="email">
-                                <Typography>Email</Typography>
-                                    <TextField
-                                        variant="outlined"
-                                        size="small"
-                                        className="email"
-                                        label="Email"
-                                    />
-                                </div>
+                        
                                 <div className="number">
-                                <Typography>Phone Number</Typography>
+                               
                                     <TextField
                                         variant="outlined"
-                                        className="email"
+                                        style={{ background:"#FFFFFF" }}
                                         size="small"
                                         label="Phone Number"
+                                        InputLabelProps={{
+                                            shrink: true,
+                                          }}
                                     />
                                 </div>
                             </div>
+                   <div className="emaildiv">
+                              
+                                    <TextField
+                                        variant="outlined"
+                                        size="small"
+                                        className="mail"
+                                        style={{ background:"#FFFFFF" }}
+                                        InputLabelProps={{
+                                            shrink: true,
+                                          }}
+                                        label="Email"
+                                    />
+                                </div>
                             <div className="numbers">
                                 <div>
-                                <Typography>Card Number</Typography>
+                                
                                     <TextField
                                     variant="outlined"
                                     size="small"
+                                    style={{ background:"#FFFFFF" }}
                                     label="Card Number"
+                                    InputLabelProps={{
+                                        shrink: true,
+                                      }}
                                     />
                                 </div>
                                 <div className="resAdd">
-                                <Typography>Residential Address</Typography>
+                          
                                 <TextField
                                     variant="outlined"
                                     size="small"
+                                    style={{ background:"#FFFFFF" }}
                                     label="Residential Address"
+                                    InputLabelProps={{
+                                        shrink: true,
+                                      }}
                                 />
                             </div>
                             </div>
