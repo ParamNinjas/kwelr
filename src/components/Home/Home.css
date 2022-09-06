@@ -16,7 +16,7 @@
       position: relative;
       display: flex !important;
       gap: 2.5em;
-      margin-bottom: 1em;
+      margin-bottom: 2em;
       top: 2em;
       left: 2.5em;
     }
@@ -41,7 +41,7 @@
       position: relative;
       display: flex;
       gap: 2.5em;
-      margin-bottom: 2em;
+      margin-bottom: 3em;
       top: 1.5em;
       left: 2.5em;
     }
@@ -52,7 +52,7 @@
     }
     .imageSlider{
       position: relative;
-      bottom: 23.7em;
+      bottom: 27.7em;
      left: 36em;
     }
     .image-gallery-slide .image-gallery-image{
@@ -113,7 +113,7 @@
     .resAdd{
       position: relative;
       left: 2.5em;
-      margin-bottom: 1em;
+      margin-bottom: 2em;
       width: 32em !important;
     }
     .dropdowns{
@@ -123,7 +123,7 @@
     .dropdown{
        position: relative;
        left: 2em;
-   
+       margin-bottom: 1em;
        width: 32em !important;
       
     }
