@@ -158,8 +158,11 @@
   }
    .imageSlider{
       position: relative;
-      right: 20em;
-      width: 100px !important;
+      right: 0em;
+    
+    }
+    .slider{
+      width: 90px !important;
     }
     .dropdown{
         max-width: 21.5em !important;
@@ -168,5 +171,10 @@
     .dropdown2{
         max-width: 21.8em !important;
         right: 0.1em;
+    }
+    .resAdd{
+      position: relative;
+      margin-bottom: 1em;
+      width: 14.8em !important;
     }
  }

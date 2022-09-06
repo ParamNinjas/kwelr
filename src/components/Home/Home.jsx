@@ -223,6 +223,7 @@ const Home = () => {
                                 <SimpleImageSlider
                                     width={496}
                                     height={504}
+                                    className="slider"
                                     images={images}
                                     showBullets={false}
                                     autoPlay={true}
