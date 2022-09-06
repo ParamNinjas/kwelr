@@ -219,6 +219,7 @@ const Home = () => {
                             >
                                 Register
                             </Button>
+                            <BrowserView>
                             <div className="imageSlider">
                                 <SimpleImageSlider
                                     width={496}
@@ -229,14 +230,11 @@ const Home = () => {
                                     autoPlay={true}
                                     showNavs={false}
                                 />
+                               
                                 </div>
+                            </BrowserView>
                         </div>
 
-                    </Grid>
-                    <Grid item xs={12} sm ={12} md={4} lg={4}>
-                    <BrowserView>
-                    
-                                </BrowserView>
                     </Grid>
                 </Grid>
                  
